@@ -24,3 +24,9 @@ The goal of this capstone project was to create a website that makes it easier f
 ![](./screenshots/arch.png)
 
 
+### Screenshots
+
+#### Home Page
+![](./overview.png)
+
+
