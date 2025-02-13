@@ -30,5 +30,8 @@ The goal of this capstone project was to create a website that makes it easier f
 ## Graph that shows which students have replied to each others discussion posts
 ![](./screenshots/student-graph.PNG)
 
+## UI to view and reply to other student's posts
+![](.screenshots/student-post.PNG)
+![](.screenshots/student-reply.PNG)
 
 
