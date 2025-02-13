@@ -1,4 +1,4 @@
-# 2024 Capstone Project Discussion Board Analytics
+# Fall 2024 Capstone Project: Discussion Board Analytics
 
 ## Team Members
 Christopher Page\
