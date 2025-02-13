@@ -7,8 +7,7 @@ Brantley NeSmith\
 Broderick Hammond\
 Jaadin Neptune
 
-|       |            |
-|-------|------------|
+
 |Christopher Page| Benjamin C. Roberts|
 |Brantley NeSmith| Broderick Hammond|
 |Jaadin Neptune| |
