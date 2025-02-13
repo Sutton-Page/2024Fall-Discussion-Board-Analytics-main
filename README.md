@@ -8,7 +8,7 @@
 |Jaadin Neptune| |
 
 ## Responsiblities
-Everyone - Front end
+Everyone - Front end\
 Backend - Christopher Page, Brantley NeSmith
 
 ## Overview
