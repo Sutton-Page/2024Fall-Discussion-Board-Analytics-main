@@ -34,7 +34,7 @@ The goal of this capstone project was to create a website that makes it easier f
 ![](./screenshots/student-posts.PNG)
 ![](./screenshots/student-reply.PNG)
 
-## Analytics Pages for teachers
+## Analytics Page for teachers
 ![](./screenshots/student-analytics-page.PNG)
 
 ## Page for teachers to view student grades for discussions
