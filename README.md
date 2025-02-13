@@ -24,4 +24,11 @@ The goal of this capstone project was to create a website that makes it easier f
 ## Home Page
 ![](./screenshots/overview.PNG)
 
+## Page for student to choose discussion board to view
+![](./screenshots/student-view.PNG)
+
+## Graph that shows which students have replied to each others discussion posts
+![](./screenshots/student-graph.PNG)
+
+
 
