@@ -1,0 +1,7 @@
+Flask
+Flask-Cors
+sentence-transformers
+networkx[default]
+nltk
+wordcloud
+textblob

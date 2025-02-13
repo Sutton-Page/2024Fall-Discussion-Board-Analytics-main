@@ -1,0 +1,141 @@
+  /*Button containers */
+  .buttons {
+    display: flex;
+    gap: 20px;                  
+    justify-content: space-between; 
+    margin-top: 10px;
+    width: 100%;                
+    max-width: 550px;           
+    margin-left: auto;         
+    margin-right: auto;
+    box-sizing: border-box;     
+  }
+  
+  /* Buttons */
+  .buttons button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .buttons button:hover {
+    background-color: #b0b0b0; /* Turn dark grey when hovered */
+  }
+  
+  /* Reply text box */
+  .reply-box {
+    width: 100%;               
+    max-width: 550px;          
+    margin-left: auto;         
+    margin-right: auto;
+    visibility: hidden;        /* Keep text box hidden until clicked */
+    height: 0;
+    margin-bottom: 10px;
+    transform: translateY(-20px);
+    transition: all 0.5s ease-out; /* Slide animation */
+    box-sizing: border-box;    
+  }
+  
+  /* Text box opens */
+  .reply-box.open {
+    visibility: visible;       /* Make it visible */
+    height: auto;              /* Allow the text box to expand */
+    transform: translateY(0);  /* Slide into view */
+  }
+  
+  .reply-box textarea {
+    width: 100%;               /* Text box fill area */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d3d3d3; /* Light gray background*/
+    color: black;              /* Black text*/
+    box-sizing: border-box;    
+    cursor: text;              
+    resize: none;
+    height: 100px;             /* Set height to 100px */   
+  }
+
+
+  .reply-info-bar {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+
+    max-width: 555px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reply-info-bar.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.reply-info-bar.success {
+
+  background-color: #b5f3a2;
+  color:rgb(20, 109, 20);
+  border: 1px solid lightgreen;
+
+}
+
+.info-icon {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+/* Close button styling */
+.reply-close-button {
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 0 5px;
+  transition: color 0.3s;
+  margin-left: auto;
+}
+
+
+
+
+.reply-close-button:hover {
+  color: rgba(0, 0, 0, 0.5); /* Darkens color on hover */
+}
+
+
+
+.info-none {
+
+  display: none;
+}
+
+
+.reply-loading {
+  width: 100%; /* Increased width to make the bar wider */
+  height: 14px;
+  box-shadow: 0 3px 0 #131212;
+  background: repeating-linear-gradient(90deg, #201f1f 0 8px, #0000 0 100%) 0 0/calc(100%/12) 100%;
+  animation: l1 0.5s infinite linear; /* Increased speed for more frequent boxes */
+
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes l1 {
+  100% {
+    background-position: calc(100% / 12) 0;
+  }
+}

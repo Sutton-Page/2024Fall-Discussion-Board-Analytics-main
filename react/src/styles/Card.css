@@ -1,0 +1,62 @@
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    position: relative;
+    text-align: center;
+  }
+  
+  .centered-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .main-message {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+
+    display: -webkit-box; 
+    -webkit-line-clamp: 5; 
+    line-clamp: 5;
+    -webkit-box-orient: vertical; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    line-height: 1.5;
+    max-height: calc(1.5em * 5);
+  }
+
+  .message-bubble-height-limit{
+
+      max-height: 300px;
+      overflow: auto;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
