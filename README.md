@@ -16,3 +16,6 @@ The goal of this capstone project was to create a website that makes it easier f
 |---------- | -------|
 | React     | Java - Spring framework |
 |           | Python - Flask framework|
+
+# Project Architecture
+
