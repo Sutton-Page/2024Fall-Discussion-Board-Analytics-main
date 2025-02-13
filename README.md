@@ -31,7 +31,7 @@ The goal of this capstone project was to create a website that makes it easier f
 ![](./screenshots/student-graph.PNG)
 
 ## UI to view and reply to other student's posts
-![](./screenshots/student-post.PNG)
+![](./screenshots/student-posts.PNG)
 ![](./screenshots/student-reply.PNG)
 
 
